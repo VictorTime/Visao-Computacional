@@ -57,6 +57,7 @@ python val.py --name ${dataset}_UKAN --output_dir [YOUR_OUTPUT_DIR]
 ## ⏳Training Segmentation U-KAN
 
 Ah sim, passa o caminho das pastas onde estão o dataset no reorganizar folds unidos, ai tu gera na pasta output
+
 You can simply train U-KAN on a single GPU by specifing the dataset name ```--dataset``` and input size ```--input_size```.
 ```bash
 cd Seg_UKAN
